@@ -31,16 +31,50 @@ const test = () => {
   
   return (
     <div>
-      <div>{currentStocks.firstStock}</div>
-      <div>{currentStocks.secondStock}</div>
-      <div>{currentStocks.thirdStock}</div>
-      <div>{currentStocks.fourthStock}</div>
-      <div>{currentStocks.fifthStock}</div>
-      <div>{currentStocks.sixthStock}</div>
-      <div>{currentStocks.seventhStock}</div>
-      <div>{currentStocks.eightStock}</div>
-      <div>{currentStocks.ninthStock}</div>
-      <div>{currentStocks.tenthStock}</div>
+      <div>
+        <p>Stock one:</p>
+        <div>{currentStocks.firstStock}</div>
+      </div>
+      <div>
+        <p>Stock Two:</p>
+        <div>{currentStocks.secondStock}</div>
+      </div>
+      <div>
+        <p>Stock Three</p>
+        <div>{currentStocks.thirdStock}</div>
+      </div>
+      <div>
+        <p>Stock Four</p>
+        <div>{currentStocks.fourthStock}</div>
+      </div>
+     
+      <div>
+        <p>Stock Five</p>
+        <div>{currentStocks.fifthStock}</div>
+      </div>
+      
+      <div>
+        <p>Stock Six</p>
+        <div>{currentStocks.sixthStock}
+      </div></div>
+      
+        <div>
+          <p>Stock Seven</p>
+          <div>{currentStocks.seventhStock}</div>
+        </div>
+      
+        <div>
+          <p>Stock Eight</p>
+          <div>{currentStocks.eighthStock}</div>
+      </div>
+        <div>
+          <p>Stock Nine</p>
+          <div>{currentStocks.ninthStock}</div>
+      </div>
+        <div>
+          <p>Stock Ten</p>
+          <div>{currentStocks.tenthStock}</div>
+      </div>
     </div>
   )
 }

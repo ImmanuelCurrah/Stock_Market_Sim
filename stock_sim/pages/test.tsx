@@ -7,6 +7,8 @@ import axios from "axios"
 // }
 
 // {stocks} : Props
+
+//The only reason I didn't do it through the staticProps was because I could not get seInterval to work with it.
 const test = () => {
   // let stockResults = JSON.parse(stocks);
   const [currentStocks, setCurrentStocks] = useState<any>()
@@ -47,33 +49,29 @@ const test = () => {
         <p>Stock Four</p>
         <div>{currentStocks.fourthStock}</div>
       </div>
-     
       <div>
         <p>Stock Five</p>
         <div>{currentStocks.fifthStock}</div>
       </div>
-      
       <div>
         <p>Stock Six</p>
         <div>{currentStocks.sixthStock}
       </div></div>
-      
-        <div>
-          <p>Stock Seven</p>
-          <div>{currentStocks.seventhStock}</div>
-        </div>
-      
-        <div>
-          <p>Stock Eight</p>
-          <div>{currentStocks.eighthStock}</div>
+      <div>
+        <p>Stock Seven</p>
+        <div>{currentStocks.seventhStock}</div>
       </div>
-        <div>
-          <p>Stock Nine</p>
-          <div>{currentStocks.ninthStock}</div>
+      <div>
+        <p>Stock Eight</p>
+        <div>{currentStocks.eighthStock}</div>
       </div>
-        <div>
-          <p>Stock Ten</p>
-          <div>{currentStocks.tenthStock}</div>
+      <div>
+        <p>Stock Nine</p>
+        <div>{currentStocks.ninthStock}</div>
+      </div>
+      <div>
+        <p>Stock Ten</p>
+        <div>{currentStocks.tenthStock}</div>
       </div>
     </div>
   )

@@ -40,15 +40,6 @@ export default function flucuateStock() {
   } else if (randomIdentifier === 9) {
     stockValueTen += 100;
     stockValueNine -= 100;
-  } else if (randomIdentifier === 10) {
-    let secondRandomIdentifier = Math.floor(Math.random() * 2);
-    if (secondRandomIdentifier === 1) {
-      stockValueEight += 300;
-      stockValueFour -= 20;
-    } else if (secondRandomIdentifier === 0) {
-      stockValueNine += 500;
-      stockValueOne -= 30;
-    }
   }
   return {
     stocks: {

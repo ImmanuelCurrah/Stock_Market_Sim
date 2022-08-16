@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { GetStaticProps } from 'next';
+// import { GetStaticProps } from 'next';
+import LogoutButton from '../components/Logout';
 import axios from "axios"
 
 // type Props = {
@@ -73,6 +74,7 @@ const test = () => {
         <p>Stock Ten</p>
         <div>{currentStocks.tenthStock}</div>
       </div>
+      <LogoutButton/>
     </div>
   )
 }
